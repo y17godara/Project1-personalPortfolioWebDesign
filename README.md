@@ -2,11 +2,13 @@
 
 # Personal Portfolio WebDesign.
 Hi there, I am [Yash Godara.](#/)👋
+<br>
 Hello ! My Friends This is My First Ever Complete Code for Web Devloping, I had work on many minor parts of Web Designing but this is My First Project that is am Building from Scratch to End.
 
 :SOCIALS:
 
 ![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white)
+<br></br>
 ![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
