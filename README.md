@@ -24,14 +24,12 @@
 <h3>
   <b>:Connect with me:</b>
 </h3>
-
-<br>
   
-<a href="https://www.linkedin.com/in/yash-godara-a91442246/">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) </a>
-<a href="https://github.com/y17godara">![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) </a>
-<a href="https://leetcode.com/profile/">![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06) </a>
-<a href="https://linktr.ee/yash17godara">![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white) </a>
-<a href="yash17godara@gmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) </a>
+<a href="https://www.linkedin.com/in/yash-godara-a91442246/" target="_blank" rel="noreferrer>![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) </a>
+<a href="https://github.com/y17godara" target="_blank" rel="noreferrer>![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) </a>
+<a href="https://leetcode.com/profile/" target="_blank" rel="noreferrer>![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06) </a>
+<a href="https://linktr.ee/yash17godara" target="_blank" rel="noreferrer>![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white) </a>
+<a href="yash17godara@gmail.com" target="_blank" rel="noreferrer>![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) </a>
 
 <br>
   
