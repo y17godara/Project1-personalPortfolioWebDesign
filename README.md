@@ -34,6 +34,9 @@ I'm a Student, Who is aiming as Software Dev in Future 💻!
 <a href="https://linktr.ee/yash17godara" target="_blank" rel="noreferrer">![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white) </a>
 <a href="yash17godara@gmail.com" target="_blank" rel="noreferrer">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) </a>
 
+
+<a href="yash17godara@gmail.com" target="_blank" rel="noreferrer">![Netlify Status](https://api.netlify.com/api/v1/badges/01831e7a-bb9c-4e8f-9870-07a7c22d3ead/deploy-status)](https://app.netlify.com/sites/yashgodara/deploys)</a>
+
 <br>
   
   
