@@ -16,10 +16,10 @@
 I'm a Student, Who is aiming as Software Dev in Future 💻!
 </p>   
 
-
+<br>
 
 <b>
-  Hello ! My Friends This is My First Ever Complete Code for Web Devloping, I had work on many minor parts of Web Designing but this is My First Project that is am Building from Scratch to End.
+  -Hello ! My Friends This is My First Ever Complete Code for Web Devloping, I had work on many minor parts of Web Designing but this is my First Project that is am Building from Scratch to End.
 </b>
 
 <br>
@@ -35,6 +35,8 @@ I'm a Student, Who is aiming as Software Dev in Future 💻!
 <a href="yash17godara@gmail.com" target="_blank" rel="noreferrer">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) </a>
 
 <br>
+  
+  
   
   
   
