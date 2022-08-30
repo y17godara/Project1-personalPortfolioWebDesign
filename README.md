@@ -10,7 +10,7 @@
 <br>
 
 <h2 align="center">
-  Hi there, I'm <a href="#" target="_blank" rel="noreferrer">Yash Godara</a> 👋
+  Hi there, I'm <a href="https://www.linkedin.com/in/yash-godara-a91442246/" target="_blank" rel="noreferrer">Yash Godara</a> 👋
 </h2>
 
 
