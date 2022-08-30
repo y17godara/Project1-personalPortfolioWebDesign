@@ -2,7 +2,7 @@
 
 # Personal Portfolio WebDesign.
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/y17godara/github-readme-stats)
 
 Hello ! My Friends This is My First Ever Complete Code for Web Devloping, I had work on many minor parts of Web Designing but this is My First Project that is am Building from Scratch to End.
 
