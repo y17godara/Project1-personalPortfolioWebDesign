@@ -12,9 +12,9 @@
 <h2 align="center">
   Hi there, I'm <a href="https://www.linkedin.com/in/yash-godara-a91442246/" target="_blank" rel="noreferrer">Yash Godara</a> 👋
 </h2>
-<h2 align="center">
-I'm a Student, Who is Dreaming for Software Dev in Future 💻!
-</h2>   
+<p align="center">
+I'm a Student, Who is aiming as Software Dev in Future 💻!
+</p>   
 
 
 
