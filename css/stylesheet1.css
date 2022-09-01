@@ -1,4 +1,5 @@
 /*FONT*/
+
 /*Quicksand Light300, Bold 700*/ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
 
 body 
@@ -7,7 +8,7 @@ body
     padding: 0;
     margin: 0;
     }
-
+  
 .top-alert{
     padding: 80%;
     margin: 0 0;
@@ -21,7 +22,6 @@ body
 
   animation: myColor 7s infinite;
 }  
-
 @keyframes myColor { 
   14.2857%{color: #ff0000;}
   28.5714%{color: #ffa500;}
@@ -31,7 +31,6 @@ body
   85.7142%{color: #4b0082;}
   99.9999%{color: #ee82ee;}
 }
-  
 /*NAVBAR START*//*NAVBAR START*//*NAVBAR START*//*NAVBAR START*//*NAVBAR START*//*NAVBAR START*//*NAVBAR START*/    
 section 
   {
@@ -149,23 +148,29 @@ nav.fill ul li a:hover:after
 }
 #idLinkedInIcon:hover
 {
-    background-color:#06d;
+  background-color:#06d;
   }  
-
 #intro-image{
   text-align: center;
   font-family: sans-serif  Bold 700;
-  font-size: 32px;
+  font-size: 16px;
+  padding: 32px 0px 0px 0px;
 }
-#intro-image h1{
-  width: 90%;
-  /* margin: 0px 0px 0px 0px; */
+.image{
+  vertical-align: baseline;
+  width: 50%;
+  height: 200px;
 }
-#intro-image .image img{
-  margin: 0% 10%;
-  float: right;
+.intro{
+  height: 200px;
+  width: 50%;
 }
-
+.intro h1{
+  font-size: 25px;
+}
+.intro p{
+  font-size: 18px;
+}
 
 /*NAV BAR ENDS*//*NAV BAR ENDS*//*NAV BAR ENDS*//*NAV BAR ENDS*//*NAV BAR ENDS*//*NAV BAR ENDS*//*NAV BAR ENDS*/
 
