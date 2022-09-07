@@ -14,7 +14,7 @@ body
 #root{
   background-color: rgb(7, 11, 13);
   box-sizing: border-box;
-  color: #676c6f;
+  color: #757575;
   display: block;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
@@ -26,7 +26,7 @@ body
 .app
 {
   box-sizing: border-box;
-  background-color: rgb(0, 166, 255);
+  background-color: rgb(7, 11, 13);
   color: rgb(103, 108, 111);
   display: flex;
   flex-direction: column;
@@ -51,14 +51,16 @@ body
 } 
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:500');
-.back{
+.back
+{
   position: fixed;
   top: 0;
   width: 80%;
   height: 100%;
   background-size:cover;
 }
-.thx{
+.thx
+{
   position: fixed;
   left:50%;
   transform:translateX(-50%);
@@ -67,32 +69,39 @@ body
 nav{
   text-align:center;
 }
-nav a{
+nav a
+{
   font-family: 'Oswald', sans-serif;
   font-weight:500;
   text-transform:uppercase;
   text-decoration:none;
-  color:#16151b;
+  color: #999999;
   margin:0 15px;
   font-size:18px;
   letter-spacing:1px;
   position:relative;
   display:inline-block;
 }
-nav a:before{
+nav a:before
+{
+  color: white;
   content:'';
   position: absolute;
   width: 100%;
   height: 3px;
-  background:#16151b;
-  top:47%;
+  background: white;
+  top: 99%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
-nav a:hover:before{
-  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-
+nav a:hover{
+  color: white;
 }
-@keyframes in{
+nav a:hover:before
+{
+  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+@keyframes in
+{
   0%{
     width: 0;
     left:0;
@@ -104,7 +113,8 @@ nav a:hover:before{
     width: 100%;
   }
 }
-@keyframes out{
+@keyframes out
+{
   0%{
     width:100%;
     left: auto;
@@ -116,7 +126,8 @@ nav a:hover:before{
     right: 0;
   }
 }
-@keyframes show{
+@keyframes show
+{
   0%{
     opacity:0;
     transform:translateY(-10px);
@@ -126,8 +137,8 @@ nav a:hover:before{
     transform:translateY(0);
   }
 }
-
-@for $i from 1 through 5 {
+@for $i from 1 through 5
+{
   nav a:nth-child(#{$i}){
     animation:show .2s #{$i*0.1+1}s ease 1 both;
   }
