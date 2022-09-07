@@ -26,7 +26,7 @@ body
 .app
 {
   box-sizing: border-box;
-  background-color: rgb(0, 166, 255);
+  background-color: rgb(7, 11, 13);
   color: rgb(103, 108, 111);
   display: flex;
   flex-direction: column;
@@ -79,13 +79,14 @@ nav a{
   position:relative;
   display:inline-block;
 }
-nav a:before{
+
+nav a:hover:before{
   content:'';
   position: absolute;
   width: 100%;
   height: 3px;
-  background:#16151b;
-  top:47%;
+  background:rgb(255, 255, 255);
+  top:95%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
 nav a:hover:before{
