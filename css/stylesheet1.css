@@ -5,16 +5,13 @@
   padding: 0;
   font-size: 16px;
 }
-
 body 
 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
-
 #root{
   background-color: rgb(7, 11, 13);
   box-sizing: border-box;
-  color: #676c6f;
   display: block;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
@@ -22,12 +19,10 @@ body
   line-height: 24px;
 
 }
-
 .app
 {
   box-sizing: border-box;
   background-color: rgb(7, 11, 13);
-  color: rgb(103, 108, 111);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -38,13 +33,11 @@ body
   width: 80%;
 
 }
-
 .app-header
 {
   align-items: center;
   margin-top: 3rem;
   box-sizing: border-box;
-  color: rgb(103, 108, 111);
   display: block;
   z-index: 999;
 
@@ -72,20 +65,23 @@ nav a{
   font-weight:500;
   text-transform:uppercase;
   text-decoration:none;
-  color:#16151b;
+  color: rgb(202, 202, 202);
   margin:0 15px;
   font-size:18px;
   letter-spacing:1px;
   position:relative;
   display:inline-block;
 }
-
+nav a:hover
+{
+  color: #FC6D6D;
+}
 nav a:hover:before{
   content:'';
   position: absolute;
   width: 100%;
   height: 3px;
-  background:rgb(255, 255, 255);
+  background:#FC6D6D;
   top:95%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
@@ -127,9 +123,10 @@ nav a:hover:before{
     transform:translateY(0);
   }
 }
-
 @for $i from 1 through 5 {
   nav a:nth-child(#{$i}){
     animation:show .2s #{$i*0.1+1}s ease 1 both;
   }
 }
+
+/* App Navbar Ends */
