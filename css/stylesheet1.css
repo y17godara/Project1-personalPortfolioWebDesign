@@ -26,7 +26,7 @@ body
 .app
 {
   box-sizing: border-box;
-  background-color: rgb(17, 26, 31);
+  background-color: rgb(0, 166, 255);
   color: rgb(103, 108, 111);
   display: flex;
   flex-direction: column;
@@ -53,11 +53,9 @@ body
 @import url('https://fonts.googleapis.com/css?family=Oswald:500');
 .back{
   position: fixed;
-  left: 0;
   top: 0;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  background:url(https://pp.userapi.com/c841122/v841122831/327e/nHt-92F6yc4.jpg) no-repeat top center #efeff1;
   background-size:cover;
 }
 .thx{
@@ -67,8 +65,6 @@ body
   bottom: 15px;
 }
 nav{
-  align-items: center;
-  top:50px;
   text-align:center;
 }
 nav a{
@@ -78,7 +74,7 @@ nav a{
   text-decoration:none;
   color:#16151b;
   margin:0 15px;
-  font-size:16px;
+  font-size:18px;
   letter-spacing:1px;
   position:relative;
   display:inline-block;
