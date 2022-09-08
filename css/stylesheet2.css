@@ -1,9 +1,19 @@
+.app-main
+{
+    height: 100vh;
+    background-color: #282c34;
+}
 .container{
     display: flex;
     /* align-items: center;
     justify-content: center; */
     height: 100vh;
-    background-color: #282c34;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container h3 b{
+    font-size: 20px;
 }
 .wrapper{
     display: inline-flex;
