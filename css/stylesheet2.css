@@ -1,7 +1,9 @@
 .container{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    background-color: #282c34;
 }
 .wrapper{
     display: inline-flex;
@@ -17,13 +19,11 @@
     margin-left: 15px;
     height: 90px;
     line-height: 80px;
-
     overflow: hidden;
-
 }
 .dynamic-txts li
 {
-    color: #FC6D6D;
+    color: #61dafb;;
     list-style: none;
     font-size: 60px;
     animation: slide 1.5s steos(10) infinite;
@@ -31,7 +31,6 @@
 @keyframes slide {
     100%{
        top: -360px; 
-
     } 
 }
 .dynamic-txts li span
@@ -44,7 +43,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    border-left: 2px solid #FC6D6D;
+    border-left: 2px solid #61dafb;;
     animation: typing 1.5s steos(10) infinite;
 }
 @keyframes typing {

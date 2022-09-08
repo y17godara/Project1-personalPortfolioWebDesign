@@ -10,19 +10,17 @@ body
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 #root{
-  background-color: rgb(7, 11, 13);
+  background-color: rgb(21, 23, 24);
   box-sizing: border-box;
   display: block;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
-  font-family: 400;
   line-height: 24px;
 
 }
 .app
 {
   box-sizing: border-box;
-  background-color: rgb(7, 11, 13);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -30,17 +28,16 @@ body
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
 
 }
 .app-header
 {
-  align-items: center;
+  width: 100%;
   margin-top: 3rem;
   box-sizing: border-box;
   display: block;
   z-index: 999;
-
 } 
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:500');
@@ -59,6 +56,19 @@ body
 }
 nav{
   text-align:center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav .nav-logo{
+  font-size: 22px;
+  float: left;
+  color: #61dafb;
+}
+nav .nav-logo-right{
+  float: right;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
 }
 nav a{
   font-family: 'Oswald', sans-serif;
@@ -68,20 +78,20 @@ nav a{
   color: rgb(202, 202, 202);
   margin:0 15px;
   font-size:18px;
-  letter-spacing:1px;
+  letter-spacing:3px;
   position:relative;
   display:inline-block;
 }
 nav a:hover
 {
-  color: #FC6D6D;
+  color: #61dafb;;
 }
 nav a:hover:before{
   content:'';
   position: absolute;
   width: 100%;
   height: 3px;
-  background:#FC6D6D;
+  background:#61dafb;;
   top:95%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
@@ -128,5 +138,9 @@ nav a:hover:before{
     animation:show .2s #{$i*0.1+1}s ease 1 both;
   }
 }
-
+.pad-q
+{
+    padding: 2rem 0px 2rem 0px;
+    background-color: #20232a;
+}
 /* App Navbar Ends */
