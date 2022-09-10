@@ -20,16 +20,17 @@
   float: left;
   color: #61dafb;
   font-size: 1.4rem;
-}
-.topnav .logo:hover
-{
-  color: #00c8ff;
+  transition: color 0.5s ease;
 }
 .topnav a:hover
 {
   font-weight: 600;
   color: #61dafb;
   text-decoration: 3px underline;
+}
+.topnav .logo:hover
+{
+  color: #00c8ff;
 }
 .topnav .icon
 {
