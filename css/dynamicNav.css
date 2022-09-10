@@ -15,6 +15,16 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
+.topnav .logo
+{
+  float: left;
+  color: #61dafb;
+  font-size: 1.4rem;
+}
+.topnav .logo:hover
+{
+  color: #00c8ff;
+}
 .topnav a:hover
 {
   font-weight: 600;
