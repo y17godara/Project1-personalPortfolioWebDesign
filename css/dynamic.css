@@ -1,6 +1,6 @@
 
 .container{ 
-  margin-top: 2rem;  
+  margin-top: 5rem;  
   display: flex;
   /* align-items: center;
   justify-content: center; */
@@ -51,7 +51,7 @@
   height: 100%;
   width: 100%;
   background: #282c34;
-  border-left: 2px solid #fff;
+  border-left: 2px solid ;
   animation: typing 3s steps(10) infinite;
 }
 @keyframes typing {

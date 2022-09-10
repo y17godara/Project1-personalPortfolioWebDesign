@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="/css/stylesheet2.css"> <!-- app-main -->
 
     <link rel="stylesheet" href="/css/dynamic.css">
+    <link rel="stylesheet" href="/css/dynamicNav.css">
+
     <!-- scripts -->
     <link rel="scripts" href="/scripts/script1.js">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -27,59 +29,43 @@
     <!--App Div-->
     <div class="app">
 
-      <!--App Header-->
+      <div id="home"></div>
+      <!--App Header--> <!--stylesheet1.css-->
       <div class="app-header pad-q" role="banner">
 
           <!--Navbar-->
-          <div class="back"> </div>
-          <nav>
-            <a class="nav-logo">YASH</a>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#resume">Resume</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-            <div class="nav-logo-right"> <a rel="noopener" class="nav-logo-right" target="_blank" href="https://github.com/y17godara" >Github</a></div>
-          </nav>
+          <div class="topnav" id="myTopnav">
+            <a class="logo" href="#">Yash<span>.Div</span></a>
+            <a href="#home" class="active">Home</a>
+            <a href="#news">About</a>
+            <a href="#contact">Portfolio</a>
+            <a href="#about">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
 
-      </div><!--App Header-->
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+
+      </div><!--App Header--><!--stylesheet1.css-->
 
 
-
-
-      <!--App Main-->
+      <!--App Main--> <!--stylesheet2.css-->
       <div id="#main" class="app-main">
 
-        <!--Intro-->
-        <div class="intro"> 
-          <h3>WELCOME, <p> Myself, <b>Yash Godara</b> </p> </h3>
-        </div><!--Intro-->
-        
-        <br>
 
-        <!--Main Container-->
-        <div class="container">
 
-          <!-- Wrapper-->
-          <div class="wrapper">
 
-            <!--(Static Text)-->
-            <div class="static-txt">I'm a, </div>
-            <!--(Dynamic Texts)-->
-            <ul class="dynamic-txts">
-              <li><span>Student</span></li>
-              <li><span>Developer</span></li>
-              <li><span>Coder</span></li>
-            </ul>
-
-          </div> <!--Wrapper -->
-
-          <!--Start-->
-
-         
-
-        </div><!--Main Container-->  
-      </div><!--App Main-->
+      </div><!--App Main--> <!--stylesheet1.css-->
 
 
 

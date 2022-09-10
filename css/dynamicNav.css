@@ -1,0 +1,52 @@
+.topnav
+{
+  overflow: hidden;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topnav a
+{ 
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 12px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.topnav a:hover
+{
+  font-weight: 600;
+  color: #61dafb;
+  text-decoration: 3px underline;
+}
+.topnav .icon
+{
+  display: none;
+}
+@media screen and (max-width: 600px)
+{
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}  
+@media screen and (max-width: 600px)
+{
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+  
+  

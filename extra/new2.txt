@@ -1,15 +1,30 @@
 
-    <div class="topnav">
-        <!-- <a class="menus" href="#topnav"> YASH </a> -->
-        <a class="logo" href="#logo" title="Logo">
-            <img src="/src/logo.png" style="width: 70px;" alt="logo">  
-         </a>
-        <a class="active" href="#home">Home</a>
-        <a class="menus" href="#services">Services</a>
-        <a class="menus" href="#news">Portfolio</a>
-        <a class="menus" href="#contact">Contact</a>
-        <a class="menus" href="#about">About</a>
-        <a>
-<!--Icon--><div id="idLinkedInIcon" onclick="window.open('#');" title="Linked In Profile">in</div>       
-        </a>
-      </div>
+        <!--Intro-->
+        <div class="intro"> 
+          <h3>WELCOME, <p> Myself, <b>Yash Godara</b> </p> </h3>
+        </div><!--Intro-->
+        
+        <br>
+
+        <!--Main Container--> <!--dynamic.css-->
+        <div class="container">
+
+          <!-- Wrapper-->
+          <div class="wrapper">
+
+            <!--(Static Text)-->
+            <div class="static-txt">I'm a, </div>
+            <!--(Dynamic Texts)-->
+            <ul class="dynamic-txts">
+              <li><span>Student</span></li>
+              <li><span>Developer</span></li>
+              <li><span>Coder</span></li>
+            </ul>
+
+          </div> <!--Wrapper -->  <!--dynamic.css-->
+
+          <!--Start-->
+
+         
+
+        </div><!--Main Container-->  
