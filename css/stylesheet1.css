@@ -53,5 +53,8 @@
 {
     padding: 2rem 0px 2rem 0px;
     background-color: #20232a;
+    -webkit-box-shadow: 0 4px 6px -6px rgb(255, 255, 255);
+    -moz-box-shadow: 0 4px 6px -6px rgb(255, 255, 255);
+    box-shadow: 0 4px 6px -6px rgb(255, 255, 255);
 }
 /* App Navbar Ends */
