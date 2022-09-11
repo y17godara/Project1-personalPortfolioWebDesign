@@ -27,18 +27,17 @@
 }
 .home .home-content
 {
-    padding-top: 5rem;
+    padding: 3rem 0rem;
     
 }
 .home .home-content .text-1
 {
-    font-size: 27px;
+    font-size: 2.4rem;
 }
 .home .home-content .text-2
 {
-    font-size: 75px;
+    font-size: 5rem;
     font-weight: 600;
-    margin-left: -3px;
 }
 .home .home-content .text-2 a
 {
@@ -51,7 +50,7 @@
 }
 .home .home-content .text-3
 {
-    font-size: 40px;
+    font-size: 3rem;
     margin: 5px 0;
 }
 .home .home-content .text-3 span
@@ -61,8 +60,8 @@
     font-weight: 500;
 }
 .home p{
-    font-size: 1rem;
-    padding-top: 3rem;
+    font-size: 1.2rem;
+    padding: 3rem 0rem;
     width: 80%;
     margin: auto;
     line-height: 1.6;
@@ -97,7 +96,7 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3rem; 
+    padding-top: 1.5rem 0rem; 
 }
 
 .home-btn
