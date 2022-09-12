@@ -1,5 +1,6 @@
 .about
 {
+      height: 85vh;
       padding-top: 3rem;
       padding-bottom: 3rem;
       color: white;
@@ -9,6 +10,26 @@
 }
 .about .cont
 {
+      text-align: center;
       width: 80%;
       margin: auto;
+}
+.about .cont .about-info
+{
+      float: left;
+      margin-left: 10%;
+      margin-top: 1.5rem;
+      text-align: none;
+}
+
+
+
+.about .cont p{
+      margin-top: 4rem;
+      font-size: 1.2rem;
+}
+
+.about .cont h2.sub-heading
+{
+      margin-top: 1rem;
 }
