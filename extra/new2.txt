@@ -28,3 +28,14 @@
          
 
         </div><!--Main Container-->  
+
+
+<!--Container Image/About-->
+        <div class="container">
+
+          <div class="img">
+            <img src="/src/about.png" alt="My Image">
+          </div>
+          <div class="abt"></div>
+
+        </div><!--Container Image/About-->
