@@ -7,6 +7,15 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
+html {
+  font-size: 16px;
+}
+
+::selection {
+  color: #fff;
+  background: #00c8ff;
+}
+
 #root{
   background-color: rgb(21, 23, 24);
   box-sizing: border-box;
